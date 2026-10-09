@@ -38,7 +38,7 @@ dépendance externe, dans le cadre du TP 1 de l'UE HAI704I.
 ## 2. Structure du projet
 
 ```
-tp_rmi/
+HAI704I-Cabinet-Veterinaire/
 ├── common/   contrat partagé : interfaces distantes et classes transmises par valeur
 ├── server/   implémentations (servants) et lanceur du serveur   — dépend de common
 └── client/   client en ligne de commande                         — dépend de common
@@ -54,7 +54,8 @@ tp_rmi/
 
 ## 3. Compilation
 
-Depuis le dossier `tp_rmi/` :
+Dans le terminal, depuis le dossier `HAI704I-Cabinet-Veterinaire/` Veuillez executez :
+
 
 ```bash
 javac -d out/common $(find common/src -name "*.java")
@@ -115,5 +116,5 @@ Sous Windows, remplacer `:` par `;` dans le classpath.
 
 ## 7. Liens
 
-- Dépôt Git : [URL]
+- Dépôt Git : https://github.com/DigitalNomad001/HAI704I-Cabinet-Veterinaire.git
 - Vidéo de démonstration : [URL ou chemin dans l'archive]
